@@ -8,4 +8,11 @@
 </template>
 
 <style scoped>
+header {
+  padding: 30px 40px;
+}
+
+img {
+  width: 130px;
+}
 </style>

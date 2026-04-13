@@ -5,10 +5,18 @@
 
 <template>
   <div class="page">
-    <Header />
+    <Header class="header--absolute" />
     <HeroSection />
   </div>
 </template>
 
 <style scoped>
+.header--absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background: transparent;
+}
 </style>

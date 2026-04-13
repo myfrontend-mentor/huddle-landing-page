@@ -36,7 +36,4 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)
 
-## Text Content
-Build The Community Your Fans Will Love Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. Register
-
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.

@@ -32,7 +32,6 @@
 
 <style scoped>
 .hero-content {
-  /*  */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,5 +93,85 @@ button:hover {
   border: 1px solid hsl(300, 69%, 71%);
   cursor: pointer;
   color: hsl(300, 69%, 71%);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img > img {
+    width: 600px;
+  }
+
+  .hero-content {
+    gap: 120px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-content {
+    padding-inline: 60px;
+  }
+
+  p {
+    font-size: 1.6rem;
+    margin-block: 35px;
+  }
+
+  button {
+    font-size: 16px;
+    width: 280px;
+    padding: 12px 18px;
+    border-radius: 40px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    align-items: center;
+    gap: 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .hero-img > img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .main-content {
+    text-align: left;
+    padding-inline: 0;
+    width: 100%;
+  }
+
+  p {
+    font-size: 1.125rem;
+    margin-block: 25px;
+  }
+
+  button {
+    font-size: 16px;
+    width: 150px;
+    padding: 12px 18px;
+    border-radius: 40px;
+    margin-bottom: 200px;
+  }
+
+  .socials {
+    justify-content: right;
+  }
 }
 </style>

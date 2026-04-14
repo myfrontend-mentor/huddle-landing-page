@@ -48,6 +48,10 @@
   padding-inline: 30px;
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
 p {
   /* font-size: 18px; */
   margin-block: 25px;
